@@ -31,3 +31,12 @@ Accede al [curso](https://escuela.it/cursos/curso-dise%C3%B1o-web-orientado-comp
 * [Arquitectura CSS](arquitectura-css.md).
 * [Introducción a Sass](http://sass-lang.com/guide).
 * [Introducción a ES6](ecmascript.md).
+
+## Clase 3
+
+* Diseñando orientado a Componentes.
+  * CSS orientado a Componentes.
+  * JS orientado a Componentes.
+  * PHP orientado a Componentes.
+* Enrutamiento con PHP.
+* Vistas con PHP.

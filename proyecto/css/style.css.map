@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,KACE,iBAAA,KACA,MAAA,KAGF,SAAW,QAAA,YAAA,QAAA,YAAA,QAAA,KAEX,WACE,kBAAA,eAAA,UAAA","file":"../style.css","sourcesContent":["html {\n  background-color: black;\n  color: white;\n}\n\n.flexbox { display: flex; }\n\n.translate {\n  transform: translate(0,0);\n}\n"]}
