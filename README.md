@@ -39,7 +39,7 @@ Accede al [curso](https://escuela.it/cursos/curso-dise%C3%B1o-web-orientado-comp
   * JS orientado a Componentes.
   * PHP orientado a Componentes.
 
-## CLase 4
+## Clase 4
 
 * Enrutamiento con PHP.
 * Vistas con PHP.
