@@ -1,7 +1,3 @@
-import suma from './components/suma'
+import toggleNav from './components/toggle_nav'
 
-console.log(
-  'Hola Componentes',
-  suma(2, 3)
-)
-
+toggleNav()

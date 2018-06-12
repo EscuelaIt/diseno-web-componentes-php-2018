@@ -1,0 +1,58 @@
+.Header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: var(--header-height);
+  line-height: var(--header-height);
+  background-color: var(--main-color);
+
+  &-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: var(--container-width);
+  }
+}
+
+.Logo {
+  position: absolute;
+  z-index: 999;
+
+  & a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--second-color);
+    transition: all .3s ease;
+
+    &:hover { opacity: .75; }
+  }
+}
+
+.Panel {
+  position: fixed;
+  z-index: 998;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  overflow-y: auto;
+  background-color: var(--main-modal-color);
+  transition: transform .3s ease;
+  /* De arriba */
+  transform: translate(0, -100%);
+  /* De la derecha */
+  transform: translate(100%, 0);
+  /* De abajo */
+  transform: translate(0, 100%);
+  /* De la izquierda */
+  transform: translate(-100%, 0);
+
+  &.is-active { transform: translate(0,0); }
+
+  &-btn {
+    position: absolute;
+    z-index: 999;
+    right: 0;
+  }
+}
+
