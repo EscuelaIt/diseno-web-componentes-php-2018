@@ -4,7 +4,7 @@
   width: 100%;
   height: var(--header-height);
   line-height: var(--header-height);
-  background-color: var(--main-color);
+  background-color: var(--second-color);
 
   &-container {
     position: relative;
@@ -16,14 +16,22 @@
 .Logo {
   position: absolute;
   z-index: 999;
+  top: 0;
+  left: .5rem;
 
   & a {
     font-size: 2rem;
     text-decoration: none;
-    color: var(--second-color);
+    color: var(--main-color);
     transition: all .3s ease;
 
     &:hover { opacity: .75; }
+  }
+
+  & img {
+    padding: .25rem;
+    width: auto;
+    height: var(--header-height);
   }
 }
 
@@ -36,7 +44,7 @@
   right: 0;
   width: 100%;
   overflow-y: auto;
-  background-color: var(--main-modal-color);
+  background-color: var(--second-modal-color);
   transition: transform .3s ease;
   /* De arriba */
   transform: translate(0, -100%);
@@ -52,7 +60,42 @@
   &-btn {
     position: absolute;
     z-index: 999;
+    top: -.5rem;
     right: 0;
   }
 }
 
+.u-afterFixed { padding-top: var(--header-height); }
+
+.hamburger {
+  &:focus {
+    outline: 0;
+    border: 0;
+  }
+
+  &-inner,
+  &-inner:after,
+  &-inner:before { background-color: var(--main-color);  }
+}
+
+/* 1024px / 16px = 64em */
+@media screen and (min-width: 64em) {
+  .Header-container { display: flex; }
+
+  .Logo {
+    position: static;
+    margin-left: .5rem;
+    width: 10%;
+  }
+
+  .Panel {
+    position: static;
+    width: 90%;
+    display: flex;
+    overflow-y: visible;
+    background-color: transparent;
+    transform: translate(0, 0);
+
+    &-btn { display: none; }
+  }
+}

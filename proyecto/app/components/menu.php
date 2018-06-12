@@ -1,9 +1,8 @@
 <nav class="Menu">
   <ul>
-    <li><a href="">Sección 1</a></li>
-    <li><a href="">Sección 2</a></li>
-    <li><a href="">Sección 3</a></li>
-    <li><a href="">Sección 4</a></li>
-    <li><a href="">Sección 5</a></li>
+    <li><a href="<?php echo APP['home_url'] ?>">Inicio</a></li>
+    <li><a href="<?php echo APP['home_url'] ?>/acerca">Acerca</a></li>
+    <li><a href="<?php echo APP['home_url'] ?>/trabajos">Trabajos</a></li>
+    <li><a href="<?php echo APP['home_url'] ?>/contacto">Contacto</a></li>
   </ul>
 </nav>

@@ -6,6 +6,7 @@ const toggleNav = () => {
   panelBtn.addEventListener('click', e => {
     e.preventDefault()
     panel.classList.toggle('is-active')
+    panelBtn.classList.toggle('is-active')
   })
 }
 

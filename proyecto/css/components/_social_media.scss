@@ -1,0 +1,10 @@
+.SocialMedia {
+  display: flex;
+  justify-content: space-evenly;
+
+  & a {
+    font-size: 1.5rem;
+
+    @media screen and (min-width: 64em) { font-size: 2rem; }
+  }
+}

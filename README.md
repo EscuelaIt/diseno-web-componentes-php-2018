@@ -42,8 +42,16 @@ Accede al [curso](https://escuela.it/cursos/curso-dise%C3%B1o-web-orientado-comp
 ## Clase 4
 
 * Enrutamiento con PHP.
+  * [Manual de .htaccess en Desarrollo Web](https://desarrolloweb.com/manuales/htaccess-para-urls-amigables.html)
+  * [htaccess to nginx converter](https://winginx.com/en/htaccess)
+  * [Problema del error 404 OK en PHP](https://desarrolloweb.com/articulos/problema-error-404-php.html)
+  * [Librería AltoRouter](http://altorouter.com/)
 * Vistas con PHP.
 * Diseñando un sitio web orientado a componentes I.
+  * ¿Porqué ems en las mediaqueries?
+    * [Why ems?](https://css-tricks.com/why-ems/)
+    * [EMs FTW](https://cloudfour.com/thinks/the-ems-have-it-proportional-media-queries-ftw/)
+    * [PX, EM or REM Media Queries?](https://zellwk.com/blog/media-query-units/)
 
 ## Clase 5:
 
