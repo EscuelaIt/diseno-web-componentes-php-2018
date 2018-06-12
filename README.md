@@ -38,5 +38,15 @@ Accede al [curso](https://escuela.it/cursos/curso-dise%C3%B1o-web-orientado-comp
   * CSS orientado a Componentes.
   * JS orientado a Componentes.
   * PHP orientado a Componentes.
+
+## CLase 4
+
 * Enrutamiento con PHP.
 * Vistas con PHP.
+* Diseñando un sitio web orientado a componentes I.
+
+## Clase 5:
+
+* Diseñando un sitio web orientado a componentes II.
+* WPO (Web Performance Optimization) del sitio.
+* Despliegue del sitio en producción.
