@@ -1,0 +1,12 @@
+.Main {
+  flex: auto;
+  &-container {
+    margin: 0 auto;
+    max-width: var(--container-width);
+  }
+}
+
+.Works {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

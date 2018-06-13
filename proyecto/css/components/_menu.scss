@@ -1,6 +1,6 @@
 /* ********** Menu ********** */
 .Menu {
-  margin: 0 auto;
+  margin: 0  auto;
   padding-top: var(--header-height);
   text-align: center;
 
@@ -17,18 +17,18 @@
     font-size: 1.5rem;
     text-decoration: none;
     color: var(--main-color);
-    transition: all .3s ease-out;
+    transition: all .3s ease;
 
     &:hover {
       font-weight: bold;
-      color: var(--second-color);
+      color: var(--bg-color);
       background-color: var(--main-color);
     }
   }
 
   @media screen and (min-width: 64em) {
     padding-top: 0;
-    width: 100%;
+    flex: auto;
 
     & ul {
       flex-direction: row;

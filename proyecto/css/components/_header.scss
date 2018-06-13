@@ -15,9 +15,8 @@
 
 .Logo {
   position: absolute;
-  z-index: 999;
-  top: 0;
   left: .5rem;
+  z-index: 999;
 
   & a {
     font-size: 2rem;
@@ -42,7 +41,6 @@
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
   overflow-y: auto;
   background-color: var(--second-modal-color);
   transition: transform .3s ease;
@@ -55,7 +53,7 @@
   /* De la izquierda */
   transform: translate(-100%, 0);
 
-  &.is-active { transform: translate(0,0); }
+  &.is-active { transform: translate(0, 0); }
 
   &-btn {
     position: absolute;
@@ -64,8 +62,6 @@
     right: 0;
   }
 }
-
-.u-afterFixed { padding-top: var(--header-height); }
 
 .hamburger {
   &:focus {
@@ -78,19 +74,20 @@
   &-inner:before { background-color: var(--main-color);  }
 }
 
-/* 1024px / 16px = 64em */
-@media screen and (min-width: 64em) {
-  .Header-container { display: flex; }
+.u-afterFixed { padding-top: var(--header-height); }
 
-  .Logo {
-    position: static;
-    margin-left: .5rem;
-    width: 10%;
+@media screen and (min-width: 64em) {
+  .Header-container {
+    display: flex;
+
+    & > * {
+      position: static;
+      flex: auto;
+    }
   }
 
   .Panel {
     position: static;
-    width: 90%;
     display: flex;
     overflow-y: visible;
     background-color: transparent;
